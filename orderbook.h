@@ -13,7 +13,7 @@ class OrderBook
 {
 public:
 	OrderBook(){};
-	void initialize();
+	void initialize(string);
 	void MainOrderBook();
 	void DataImport();
 	void EnterOrder(Order *x);
